@@ -1,0 +1,20 @@
+name = "gateway-redirect-page"
+main = "worker.js"
+compatibility_date = "2024-11-27"
+
+# Workers.dev subdomain (enabled by default)
+workers_dev = true
+
+# Dev server configuration
+[dev]
+ip = "0.0.0.0"
+port = 8787
+
+# Routes configuration (optional - for custom domains)
+# routes = [
+#   { pattern = "redirect.yourdomain.com/*", zone_name = "yourdomain.com" }
+# ]
+
+# Observability (optional)
+# [observability]
+# enabled = true

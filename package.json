@@ -1,0 +1,22 @@
+{
+  "name": "gateway-redirect-page",
+  "version": "1.0.0",
+  "description": "Cloudflare Gateway redirect landing page with AI detection",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "gateway",
+    "redirect"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "4.51.0"
+  }
+}

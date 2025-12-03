@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Wrangler
+.wrangler/
+
+# Dev Containers
+.devcontainer/
+
+# Local testing file (HTML is embedded in worker.js)
+index.html
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+
+# Note: We keep the placeholder certificate in git, but you should replace it locally
+# If you want to exclude your actual certificate, uncomment the line below:
+# .devcontainer/cloudflare-corporate-ca.crt
